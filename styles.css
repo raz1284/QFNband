@@ -1,0 +1,25 @@
+
+.chord {
+	
+	color: black;
+	font-size: 16px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+td {
+	border: 1px solid black;
+	padding: 2px;
+	text-align:center;
+	font-family: Arial, sans-serif;
+}
+caption {
+	text-align:left;
+}
+pre {
+	
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+

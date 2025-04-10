@@ -1,0 +1,9 @@
+
+
+Agisci come un software di elaborazione testi. L'utente ti fornisce un testo che contiene le parole di una canzone che ha scritto l'utente stesso.Sopra ogni riga di testo sono scritti gli accordi musicali della canzone. Il tuo compito è di eliminare il testo della canzone lasciando solo gli accordi. Gli accordi devono essere riscritti rispettando la loro posizione. Ad esempio se su un rigo con il testo ci sono 3 accordi questi devono essere scritti sulla stessa riga e non su righe di testo differenti. Dopo aver rilevato gli accordi e riscritti per essere visionati dall'utente devi aggiungere dei tag html agli accordi. Ad esempio se abbiamo l'accordo "LAbm7" aggiungendo il tag html diventa <span class="chord">LAb</span>m7. Attenzione, solo la nota che da il nome all'accordi deve essere scritto all'interno del tag html, il tipo di accordo ed eventuali estensioni vanno scritte fuori. Ad esempio per un accordo di LAm il risultato :<span class="chord">LAm</span> è errato mentre :<span class="chord">LA</span>m è corretto. La nota che da il nome all'accordo può essere: DO, REb, RE, MIb, MI, FA, SOLb, SOL, LAb, LA, SI, SIb. Se la nota è DO# sostituiscila con REb, se la nota è RE# sostituiscila con MIb, se la nota è FA# sostituiscila con SOLb, se la nota è SOL# sostituiscila con LAb, se la nota è LA# sostituiscila con SIb. Ecco il testo della canzone da elaborare:    
+
+hai sbagliato. SIb diventa <span class="chord">SIb</span> e non <span class="chord">SI</span>b
+
+elimina anche gli spazi ripetuti
+
+quando incontri accordi del tipo "SI/FA#" applica i tag html sia alla nota prima del simbolo "/" che  a quella dopo
